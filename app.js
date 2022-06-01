@@ -24,6 +24,7 @@ axios
       headers: {
         "Content-Type": "multipart/form-data",
       },
+      timeout: 50000,
     }
   )
   .then((res) => console.log(res))
